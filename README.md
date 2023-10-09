@@ -6,15 +6,16 @@ Güvenli Ev
 
 Özellik : Tüm Ödülleri toplandığı zaman oyun bitiyor.
 
-Canavarlar
+Canavarlar:
 
 Zombi 
 
 Vampir 
 
-Ayı
+Ayı 
 
-Karakterler
+
+Karakterler:
 
 Okçu
 
@@ -22,14 +23,16 @@ Büyücü
 
 Samuray
 
-Mağara
+
+Mağara:
 Canavar : Zombi (1-3 Adet)
 
 Özellik : Savaş + Ganimet
 
 Eşya : Yemek (Food)
 
-Orman
+
+Orman:
 
 Canavar : Vampir (1-3 Adet)
 
@@ -38,14 +41,15 @@ Canavar : Vampir (1-3 Adet)
 Eşya : Odun (Firewood)
 
 
-Nehir
+Nehir:
 Canavar : Ayı (1-3 Adet)
 
 Özellik : Savaş + Ganimet
 
 Eşya : Su (Water)
 
-Maden
+
+Maden:
 
 Canavar: Yılan(1-4 Adet)
 
@@ -55,7 +59,8 @@ Eşya: Elmas
 
 Bu bölgede ganimet rastgele olasılığa göre kazanılır.
 
-Mağaza
+
+Mağaza:
 
 Özellik : Destekleyici Eşyalar Satın Almak
 
