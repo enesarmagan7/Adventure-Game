@@ -5,7 +5,7 @@ MEKANLAR
 Güvenli Ev
 
 Özellik : Tüm Ödülleri toplandığı zaman oyun bitiyor.
-
+--------
 Canavarlar:
 
 Zombi 
@@ -14,6 +14,7 @@ Vampir
 
 Ayı 
 
+-----------
 
 Karakterler:
 
@@ -23,6 +24,7 @@ Büyücü
 
 Samuray
 
+-----------
 
 Mağara:
 Canavar : Zombi (1-3 Adet)
@@ -31,6 +33,7 @@ Canavar : Zombi (1-3 Adet)
 
 Eşya : Yemek (Food)
 
+-----------
 
 Orman:
 
@@ -40,6 +43,7 @@ Canavar : Vampir (1-3 Adet)
 
 Eşya : Odun (Firewood)
 
+-----------
 
 Nehir:
 Canavar : Ayı (1-3 Adet)
@@ -48,6 +52,7 @@ Canavar : Ayı (1-3 Adet)
 
 Eşya : Su (Water)
 
+-----------
 
 Maden:
 
@@ -59,6 +64,7 @@ Eşya: Elmas
 
 Bu bölgede ganimet rastgele olasılığa göre kazanılır.
 
+-----------
 
 Mağaza:
 
