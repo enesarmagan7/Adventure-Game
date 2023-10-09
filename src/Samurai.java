@@ -16,7 +16,7 @@ private boolean isWeaponDeveloped;
     public void buyItem(){
     System.out.println("Güncel Paranız: "+ this.getMoney());
     System.out.println();
-     System.out.println("Silahlar\n 1-----Elmas Kılıç--Hasar:8 Fiyat:25");
+     System.out.println("Silahlar\n 1-----Elmas Kılıç--Hasar:9 Fiyat:25");
      System.out.println("2----Kyuzo Kılıcı-- Hasar:12 Fiyat : 55");
 
 
@@ -32,7 +32,7 @@ private boolean isWeaponDeveloped;
         System.out.println("Bu silah envanterinizde mevcut!");
     }
         else if(choice==1 && this.getMoney()>25) {
-          this.getInventory().setWeapon(new Weapon(2,"Elmas Kılıç",8));
+          this.getInventory().setWeapon(new Weapon(2,"Elmas Kılıç",9));
            this.setMoney(this.getMoney()-8);
         System.out.println("Yeni Silahınız: "+ this.getInventory().getWeapon().getWeaponName());
         System.out.println("Kalan bakiyeniz: "+ this.getMoney());

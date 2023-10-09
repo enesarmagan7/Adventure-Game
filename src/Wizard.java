@@ -18,8 +18,8 @@ public class Wizard extends Player {
     public void buyItem(){
         System.out.println("Güncel Paranız: "+ this.getMoney());
         System.out.println();
-        System.out.println("Silahlar\n 1-Malmortiosun Küresi -Hasar:9 -Fiyat:25");
-        System.out.println("2-Gandalfın Asası  -Hasar:12 -Fiyat : 35");
+        System.out.println("Silahlar\n 1-Malmortiosun Küresi -Hasar:10 -Fiyat:25");
+        System.out.println("2-Gandalfın Asası  -Hasar:13 -Fiyat : 35");
 
 
         int choice=sc.nextInt();
@@ -33,7 +33,7 @@ public class Wizard extends Player {
             System.out.println("Bu silah envanterinizde mevcut!");
         }
        else if(choice==1 && this.getMoney()>25) {
-           this.getInventory().setWeapon(new Weapon(2,"Malmortiosun Küresi",9));
+           this.getInventory().setWeapon(new Weapon(2,"Malmortiosun Küresi",10));
             this.setMoney(this.getMoney()-25);
             System.out.println("Yeni Silahınız: "+ this.getInventory().getWeapon().getWeaponName());
             System.out.println("Kalan bakiyeniz: "+ this.getMoney());
@@ -42,7 +42,7 @@ public class Wizard extends Player {
 
 
         else if(choice==2 && this.getMoney()>35) {
-            this.getInventory().setWeapon(new Weapon(3,"Gandalfın Asası",35));
+            this.getInventory().setWeapon(new Weapon(3,"Gandalfın Asası",13));
             this.setMoney(this.getMoney()-35);
             System.out.println("Yeni Silahınız: "+ this.getInventory().getWeapon().getWeaponName());
             System.out.println("Kalan bakiyeniz: "+ this.getMoney());
